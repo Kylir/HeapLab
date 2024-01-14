@@ -1,6 +1,6 @@
 # HeapLab environment in a container
 
-This project is a Docker file to set-up the environment needed to do the [HeapLab online courses](https://www.udemy.com/course/linux-heap-exploitation-part-1) from Max Kemper from Udemy.
+This project is a Docker file to set-up the environment needed to do the [HeapLab online courses](https://www.udemy.com/course/linux-heap-exploitation-part-1) from Max Kamper from Udemy.
 
 Note: Work in progress! I just started the online course and I can't be sure this is working properly. Use at your own risk.
 
