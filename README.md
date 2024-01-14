@@ -6,7 +6,7 @@ Note: Work in progress! I just started the online course and I can't be sure thi
 
 ## How to use it
 
-- Clone the project: `git clone https://`
+- Clone the project: `git clone https://github.com/Kylir/HeapLab.git`
 - Navigate to the new directory: `cd HeapLab`
 - Build the image: `docker built . -t heaplab`
 - Create a folder for your HeapLab resources: `mkdir resources`
