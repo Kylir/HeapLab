@@ -22,7 +22,7 @@ The steps are the following:
 - Install the packages: Python3, Git, libssl-dev, libffi-dev, build-essential, Ruby
 - Install one_gadget from the Gem
 - Create a user called heaplab
-- Install pwndbg from the github repository
+- Install pwndbg version 2024.02.14 from the github repository (the last one compatible with Ubuntu 20.04)
 - Add `~/.local/bin` to the path
 - Install pwntools from pip
 - The main command is to run a bash shell
