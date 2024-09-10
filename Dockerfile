@@ -14,8 +14,8 @@ RUN echo "heaplab ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/heaplab
 USER heaplab
 WORKDIR /home/heaplab
 
-# Install pwndbg
-RUN git clone https://github.com/pwndbg/pwndbg; \
+# Install pwndbg version 2024.02.14
+RUN git clone --depth 1 --branch 2024.02.14 https://github.com/pwndbg/pwndbg; \
     cd pwndbg; \
     ./setup.sh
 
