@@ -11,6 +11,7 @@ Note: Work in progress! I just started the online course and I can't be sure thi
 - Build the image: `docker built . -t heaplab`
 - Create a folder for your HeapLab resources: `mkdir resources`
 - Run the container with a volume: `docker run -it -v ./resources/:/home/heaplab/resources heaplab:latest`
+- (Optional) Inside the container, create a new tmux session so that pwntools can attach gdb to the binary: `tmux new -s heaplab`
 
 You should be able to put binaries and scripts in the `resources` folder and the files will be accessible to both your host and container.
 
