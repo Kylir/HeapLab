@@ -8,7 +8,7 @@ Note: Work in progress! I just started the online course and I can't be sure thi
 
 - Clone the project: `git clone https://github.com/Kylir/HeapLab.git`
 - Navigate to the new directory: `cd HeapLab`
-- Build the image: `docker built . -t heaplab`
+- Build the image: `docker build . -t heaplab`
 - Create a folder for your HeapLab resources: `mkdir resources`
 - Run the container with a volume: `docker run -it -v ./resources/:/home/heaplab/resources heaplab:latest`
 - (Optional) Inside the container, create a new tmux session so that pwntools can attach gdb to the binary: `tmux new -s heaplab`
